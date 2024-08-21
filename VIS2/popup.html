@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Visual Impairment Simulator</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; }
+    select, button { width: 100%; padding: 10px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Simulate Visual Impairment</h2>
+  
+  <select id="impairmentSelect">
+    <option value="">Select an impairment</option>
+    <option value="blindness">Blindness</option>
+    <option value="lowVision">Low Vision</option>
+    <option value="protanopia">Protanopia</option>
+    <option value="deuteranopia">Deuteranopia</option>
+    <option value="tritanopia">Tritanopia</option>
+    <option value="achromatopsia">Achromatopsia</option>
+    <option value="cataracts">Cataracts</option>
+    <option value="glaucoma">Glaucoma</option>
+    <option value="amd">Age-Related Macular Degeneration (AMD)</option>
+    <option value="diabeticRetinopathy">Diabetic Retinopathy</option>
+  </select>
+
+  <button id="applyFilter">Apply Filter</button>
+  <button id="reset">Reset</button>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
